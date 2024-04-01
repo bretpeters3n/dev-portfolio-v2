@@ -1,9 +1,17 @@
 import Link from 'next/link'
 import Post from './Post'
+import PortfolioPosts from '../utils/db'
 
 const Posts = () => {
+  const portfolioPosts = PortfolioPosts
+  console.log('test')
+  console.log(portfolioPosts)
   return (
     <div className="w-full mt-2">
+      {PortfolioPosts.map((i) => {
+        console.log(i.name)
+        i++
+      })}
       <Link href="/affirmations-app">
         <Post />
       </Link>
