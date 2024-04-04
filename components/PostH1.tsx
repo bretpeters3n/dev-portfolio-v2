@@ -1,3 +1,11 @@
+import {
+  ReactElement,
+  JSXElementConstructor,
+  ReactNode,
+  ReactPortal,
+  AwaitedReactNode,
+} from 'react'
+
 const PostH1 = (props) => {
   return (
     <div>

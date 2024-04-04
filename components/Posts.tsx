@@ -15,7 +15,7 @@ const Posts = () => {
   return (
     <div className="w-full mt-2 mx-auto grid grid-cols-1 gap-4 md:grid-cols-2 p-3">
       {portfolioPosts.map((post) => (
-        <div>
+        <div key={post}>
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}

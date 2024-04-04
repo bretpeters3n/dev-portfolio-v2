@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
-const navigation = () => {
+const Navigation = () => {
   const [isActive, setIsActive] = useState(false)
   const handleHamClick = () => {
     // 👇️ toggle isActive state on click
@@ -70,4 +70,4 @@ const navigation = () => {
   )
 }
 
-export default navigation
+export default Navigation

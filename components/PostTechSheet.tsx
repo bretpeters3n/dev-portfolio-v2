@@ -1,3 +1,11 @@
+import {
+  ReactElement,
+  JSXElementConstructor,
+  ReactNode,
+  ReactPortal,
+  AwaitedReactNode,
+} from 'react'
+
 const PostTechSheet = (props) => {
   return (
     <div>
@@ -7,7 +15,7 @@ const PostTechSheet = (props) => {
       </blockquote>
       <ul className="list-disc list-inside pl-4">
         {props.techList.map((item) => (
-          <li>{item}</li>
+          <li key={item}>{item}</li>
         ))}
       </ul>
     </div>
