@@ -13,7 +13,8 @@ const PortfolioPosts = [
       'My first development position has come to an end. The company owner decided to move Coolibar to Florida, leaving most of us behind in Minnesota unemployed. Luckily I was able to complete one last project that I even impressed myself with!',
     heroImage: 'post-coolibar1-00.jpeg',
     order: 9,
-    path: '/magento-2-development-ux-coolibar-2',
+
+    path: '/coolibar-evolution-homepage',
   },
   {
     title: 'Beautiful Mind (VR App)',
@@ -29,7 +30,7 @@ const PortfolioPosts = [
       'My first development position exposed me to a variety of coding challenges and also allowed me to use my UX skills. Here are some projects I completed on the Coolibar Magento e-commerce site.',
     heroImage: 'post-coolibar2-00.jpeg',
     order: 7,
-    path: '/coolibar',
+    path: '/coolibar-development-ux-magento2',
   },
   {
     title: 'Budgety',
@@ -45,7 +46,7 @@ const PortfolioPosts = [
       'This was my first development portfolio. I made this shortly after graduating from the Full-Stack Web Development program I completed in December 2020.',
     heroImage: 'post-devPortfolio1-00.jpeg',
     order: 5,
-    path: '/dev-portfilio_v1-app',
+    path: '/dev-portfolio-v1',
   },
   {
     title: 'True Crime Quiz',

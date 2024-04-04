@@ -18,7 +18,8 @@ export default function DashboardLayout({
         </div>
         <Navigation />
       </div>
-      <section className="flex flex-col mx-auto p-5 max-w-[720px] pt-9 pb-9">
+      <section className="flex flex-col text-white/75 font-manrope leading-relaxed mx-auto p-5 max-w-[720px] pt-9 pb-9">
+        {/* <section className="flex flex-col text-white/75 font-manrope leading-relaxed"> */}
         {children}
       </section>
     </div>

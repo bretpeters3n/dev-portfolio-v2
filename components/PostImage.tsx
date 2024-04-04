@@ -1,17 +1,10 @@
-import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 import Image from 'next/image'
-import {
-  ReactElement,
-  JSXElementConstructor,
-  ReactNode,
-  ReactPortal,
-  AwaitedReactNode,
-} from 'react'
+import { React } from 'react'
 
 const PostImage = (props) => {
   return (
     <div className="flex flex-col items-center">
-      <figure className="text-center text-xs p-4">
+      <figure className="flex flex-col text-center text-xs p-4 gap-2">
         <Image
           src={props.src}
           width={800}
@@ -21,9 +14,7 @@ const PostImage = (props) => {
           alt="Initial screen of Affirmations app"
         />
 
-        <figcaption className="italic text-white/60">
-          {props.figcaption}
-        </figcaption>
+        <figcaption className="text-white/60">{props.figcaption}</figcaption>
       </figure>
     </div>
   )

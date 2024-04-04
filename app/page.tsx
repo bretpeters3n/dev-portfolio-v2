@@ -43,7 +43,13 @@ const Home = () => {
         <section id="posts" className="text-white max-w-[960px] mx-auto p-3">
           <Posts />
         </section>
-        <footer className="bg-green-500 h-10 ">footer</footer>
+        <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-2">
+          <div>
+            <span className="text-white">Bret Petersen</span> © 2024
+          </div>
+          <div>Email me!</div>
+          <div>Powered by Me!</div>
+        </footer>
       </main>
     </div>
   )
