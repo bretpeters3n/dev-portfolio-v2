@@ -17,7 +17,7 @@ const Home = () => {
     <div>
       <Navigation />
       <main className="flex flex-col z-0">
-        <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-.1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] bg-red-500 relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
+        <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-.1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] site-header-content relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
           <div className="flex flex-col justify-center h-full">
             <h1 className="flex flex-col font-play w-max text-[2.75rem] text-white mx-auto">
               hello!

@@ -1,3 +1,5 @@
+'use client'
+
 import PostH1 from '@/components/PostH1'
 import PostH2 from '@/components/PostH2'
 import PostImage from '@/components/PostImage'

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Asset&family=Manrope:wght@200,300,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Manrope:wght@200,300,400,500,600,700,800,900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,6 +14,8 @@
   /* --primaryColor: rgb(50, 50, 50); */
   --primaryColor: #151719;
   --secondaryColor: rgb(150, 150, 150);
+  --navigationBackground: #ff1a75;
+  --white: #ffffff;
   /* --backgroundColor: rgb(250, 250, 250); */
   --backgroundColorOpacity: rgba(239, 68, 68, var(--menuOpacity));
   --primaryBtnColor: rgb(87, 228, 0);
@@ -30,17 +32,41 @@
   --attention-font: 'Playfair+Display', Times New Roman, Georgia, serif;
 }
 
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
 body {
   background-color: var(--primaryColor);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
-html {
+/* html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
-}
+} */
 
 span {
   color: #fff;
+}
+
+.site-header-content {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  -webkit-animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;
+  align-items: center;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

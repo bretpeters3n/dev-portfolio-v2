@@ -21,8 +21,8 @@ const Posts = () => {
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-              duration: 0.25,
-              // type: 'spring',
+              duration: 0.5,
+              type: 'spring',
               // repeat: Infinity,
               delay: 0.25,
             }}

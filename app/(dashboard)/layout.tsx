@@ -9,11 +9,14 @@ export default function DashboardLayout({
 }) {
   return (
     <div>
-      <div className="bg-[#E04C3D] h-[85px] flex flex-row">
-        <div className="flex flex-col justify-center font-manrope font-bold text-slate-800 text-[1.5rem] pl-5">
+      <div className="bg-[var(--navigationBackground)] h-[85px] flex flex-row">
+        <div className="flex flex-col justify-center font-manrope font-bold pl-5">
           <Link href="/">
-            Bret Petersen •{' '}
-            <span className="italic text-slate-800">Full Stack Developer</span>
+            <p className="text-white text-xl leading-4">
+              Bret Petersen
+              <br />
+              <span className="italic text-lg">Full Stack Developer</span>
+            </p>
           </Link>
         </div>
         <Navigation />

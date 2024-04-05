@@ -11,7 +11,7 @@ const Navigation = () => {
   }
   const testURL = '/'
   return (
-    <nav className="theme-switcher btm-gradient text-black font-manrope text-xl">
+    <nav className="theme-switcher btm-gradient text-white font-manrope text-xl">
       <div id="appName" className="theme-switcher">
         {/* Affirmations */}
       </div>
@@ -37,17 +37,13 @@ const Navigation = () => {
       </button>
       <ul id="menu" className={isActive ? 'opened' : ''}>
         <li>
-          <Link
-            href={testURL}
-            onClick={handleHamClick}
-            className="theme-switcher"
-          >
+          <Link href={'/'} onClick={handleHamClick} className="theme-switcher">
             Home
           </Link>
         </li>
         <li>
           <Link
-            href="#posts"
+            href="/#posts"
             onClick={handleHamClick}
             className="theme-switcher"
           >
@@ -55,16 +51,23 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
-          {/* <Link to={testURL} onClick={handleHamClick}> */}
-          Resume
-          {/* </Link> */}
+          <Link
+            href="/resume"
+            onClick={handleHamClick}
+            className="theme-switcher"
+          >
+            Resume
+          </Link>
         </li>
         <li>
-          {/* <Link to={testURL} onClick={handleHamClick}> */}
-          Contact
-          {/* </Link> */}
+          <Link
+            href="/contact"
+            onClick={handleHamClick}
+            className="theme-switcher"
+          >
+            Contact
+          </Link>
         </li>
-        {/* <li className="lastMenuItemExtend"></li> */}
       </ul>
     </nav>
   )

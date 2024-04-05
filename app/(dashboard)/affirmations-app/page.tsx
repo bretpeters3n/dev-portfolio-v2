@@ -1,9 +1,12 @@
+'use client'
+
 import PostH1 from '@/components/PostH1'
 import PostH2 from '@/components/PostH2'
 import PostImage from '@/components/PostImage'
 import PostP from '@/components/PostP'
 import PostResources from '@/components/PostResources'
 import PostTechSheet from '@/components/PostTechSheet'
+import { motion } from 'framer-motion'
 
 const affirmationsApp = () => {
   return (
@@ -66,7 +69,6 @@ const affirmationsApp = () => {
         users don't always have to create them from scratch. Stay-tuned for
         those."
         />
-
         <div>
           <PostTechSheet
             h2="Technical Sheet"
