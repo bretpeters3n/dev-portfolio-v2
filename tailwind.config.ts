@@ -24,7 +24,7 @@ const config: Config = {
       fontFamily: {
         // play: ['Asset', 'sans-serif'],
         // manrope: ['Manrope', 'sans-serif'],
-        inter: ['var(--font-inter)'],
+        // inter: ['var(--font-inter)'],
         asset: ['var(--font-asset)'],
         manrope: ['var(--font-manrope)'],
       },

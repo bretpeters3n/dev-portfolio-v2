@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter, Asset, Manrope } from 'next/font/google'
+// import { Inter, Asset, Manrope } from 'next/font/google'
+import { Asset, Manrope } from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-})
+// const inter = Inter({
+//   subsets: ['latin'],
+//   variable: '--font-inter',
+//   display: 'swap',
+// })
 const asset = Asset({
   weight: ['400'],
   subsets: ['latin'],
@@ -32,7 +33,8 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${asset.variable} ${manrope.variable}`}
+      // className={`${inter.variable} ${asset.variable} ${manrope.variable}`}
+      className={`${asset.variable} ${manrope.variable}`}
     >
       <body>{children}</body>
     </html>
