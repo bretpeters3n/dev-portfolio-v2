@@ -22,8 +22,11 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        play: ['Asset', 'sans-serif'],
-        manrope: ['Manrope', 'sans-serif'],
+        // play: ['Asset', 'sans-serif'],
+        // manrope: ['Manrope', 'sans-serif'],
+        inter: ['var(--font-inter)'],
+        asset: ['var(--font-asset)'],
+        manrope: ['var(--font-manrope)'],
       },
     },
   },
