@@ -6,6 +6,7 @@ const PortfolioPosts = [
     heroImage: 'post-affirmations-00.jpeg',
     order: 10,
     path: '/affirmations-app',
+    date: 'April, 2024',
   },
   {
     title: 'Evolution of a Homepage @ Coolibar (Magento 2)',
@@ -15,6 +16,7 @@ const PortfolioPosts = [
     order: 9,
 
     path: '/coolibar-evolution-homepage',
+    date: 'March, 2024',
   },
   {
     title: 'Beautiful Mind (VR App)',
@@ -23,6 +25,7 @@ const PortfolioPosts = [
     heroImage: 'post-beautifulMind-00.jpeg',
     order: 8,
     path: '/beautiful-mind-vr-app',
+    date: 'Dec, 2022',
   },
   {
     title: 'Development & UX @ Coolibar (Magento 2)',
@@ -31,6 +34,7 @@ const PortfolioPosts = [
     heroImage: 'post-coolibar2-00.jpeg',
     order: 7,
     path: '/coolibar-development-ux-magento2',
+    date: 'Oct, 2022',
   },
   {
     title: 'Budgety',
@@ -39,6 +43,7 @@ const PortfolioPosts = [
     heroImage: 'post-budgety-00.png',
     order: 6,
     path: '/budgety',
+    date: 'April, 2022',
   },
   {
     title: 'First Development Portfolio',
@@ -47,6 +52,7 @@ const PortfolioPosts = [
     heroImage: 'post-devPortfolio1-00.jpeg',
     order: 5,
     path: '/dev-portfolio-v1',
+    date: 'Jan, 2022',
   },
   {
     title: 'True Crime Quiz',
@@ -55,6 +61,7 @@ const PortfolioPosts = [
     heroImage: 'post-trueCrimeQuiz-00.png',
     order: 4,
     path: '/true-crime-quiz',
+    date: 'Nov, 2021',
   },
   {
     title: 'Northern Health Tracker',
@@ -63,6 +70,7 @@ const PortfolioPosts = [
     heroImage: 'post-northernHealthTracker-00.png',
     order: 3,
     path: '/northern-health-tracker',
+    date: 'Oct, 2021',
   },
   {
     title: 'Cat Memory',
@@ -71,6 +79,7 @@ const PortfolioPosts = [
     heroImage: 'post-catMemory-00.png',
     order: 2,
     path: '/cat-memory',
+    date: 'Sept, 2021',
   },
   {
     title: 'Personal Design Portfolio',
@@ -79,6 +88,7 @@ const PortfolioPosts = [
     heroImage: 'post-designPortfolio-00.png',
     order: 1,
     path: 'personal-design-portfolio',
+    date: 'July, 2021',
   },
 ]
 

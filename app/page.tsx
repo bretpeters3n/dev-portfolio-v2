@@ -40,8 +40,14 @@ const Home = () => {
             </Link>
           </div>
         </header>
-        <section id="posts" className="text-white max-w-[960px] mx-auto p-3">
-          <Posts />
+        <section
+          // style={{ width: '100vw' }}
+          id="posts"
+          className="flex flex-col items-center text-white p-3"
+        >
+          <div className="flex flex-col items-center w-[375px] md:w-[599px] lg:w-[900px] xl:w-[1100px]">
+            <Posts />
+          </div>
         </section>
         <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-2">
           <div>
