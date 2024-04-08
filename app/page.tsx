@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Posts from '../components/Posts'
 import Navigation from '@/components/Navigation'
 import Link from 'next/link'
-import '../css/Nav.css'
+// import '../css/Nav.css'
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false)
@@ -15,7 +15,7 @@ const Home = () => {
   const testURL = '/affirmations-app'
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
       <main className="flex flex-col z-0">
         <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-.1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] site-header-content relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
           <div className="flex flex-col justify-center h-full">

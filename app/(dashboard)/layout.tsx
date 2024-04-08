@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Navigation from '@/components/Navigation'
+// import Navigation from '@/components/Navigation'
 import Link from 'next/link'
 
 export default function DashboardLayout({
@@ -22,7 +22,7 @@ export default function DashboardLayout({
             </p>
           </Link>
         </div>
-        <Navigation />
+        {/* <Navigation /> */}
       </div>
       <section className="flex flex-col text-white/75 font-manrope leading-relaxed mx-auto p-5 max-w-[720px] pt-9 pb-9">
         {/* <section className="flex flex-col text-white/75 font-manrope leading-relaxed"> */}
