@@ -10,7 +10,10 @@ export default function DashboardLayout({
   return (
     <div>
       <div className="bg-[var(--navigationBackground)] h-[85px] flex flex-row">
-        <div className="flex flex-col justify-center font-manrope font-bold pl-5">
+        <div
+          className="flex flex-col justify-center font-manrope font-bold pl-5"
+          style={{ zIndex: 11 }}
+        >
           <Link href="/">
             <p className="text-white text-xl leading-4">
               Bret Petersen
