@@ -22,7 +22,7 @@ const PostImage = (props) => {
       }}
     >
       <div className="flex flex-col items-center">
-        <figure className="flex flex-col text-center text-xs p-4 gap-2">
+        <figure className="flex flex-col text-center text-xs gap-3 pt-3">
           <Image
             src={props.src}
             width={800}

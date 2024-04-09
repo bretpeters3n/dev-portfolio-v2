@@ -14,6 +14,13 @@ const Resume = () => {
         h1="Resume"
         paragraph="My resume is in PDF format and can be downloaded below. It is also available to read on this page."
       />
+      <a
+        href="./pdf/BretPetersenResume-1l.pdf"
+        download="BretPetersenResume-1l"
+        className="bg-blue-500 text-white rounded-lg px-6 py-2 hover:bg-blue-600"
+      >
+        Download the pdf
+      </a>
       <PostH2 h2="Bret Petersen" />
       <PostLink
         visibleurl="bretpetersen@gmail.com"

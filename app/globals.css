@@ -10,11 +10,11 @@
   --main-bg-color-light: rgb(250, 250, 250); */
 
   /* NEW; keep */
-  --menuOpacity: 0.95;
+  --menuOpacity: 0.96;
   /* --primaryColor: rgb(50, 50, 50); */
   --primaryColor: #151719;
   --secondaryColor: rgb(150, 150, 150);
-  --navigationBackground: #ff1a75;
+  --navigationBackground: rgba(255, 26, 117, var(--menuOpacity));
   --white: #ffffff;
   /* --backgroundColor: rgb(250, 250, 250); */
   --backgroundColorOpacity: rgba(239, 68, 68, var(--menuOpacity));
