@@ -25,7 +25,7 @@ const Navigation = () => {
         <svg
           width="40"
           height="40"
-          className="fixed top-4 right-4"
+          className="fixed top-5 right-5"
           viewBox="0 0 100 100"
         >
           {/* NEW */}
@@ -66,11 +66,11 @@ const Navigation = () => {
         </li>
         <li>
           <Link
-            href="/contact"
+            href="/about"
             onClick={handleHamClick}
             className="theme-switcher"
           >
-            Contact
+            About
           </Link>
         </li>
       </ul>

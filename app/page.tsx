@@ -2,9 +2,8 @@
 
 import { useState } from 'react'
 import Posts from '../components/Posts'
-import Navigation from '@/components/Navigation'
-import Link from 'next/link'
-// import '../css/Nav.css'
+// import Footer from '../components/Footer'
+import { Link } from 'react-scroll'
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false)
@@ -16,7 +15,7 @@ const Home = () => {
   return (
     <div>
       {/* <Navigation /> */}
-      <main className="flex flex-col z-0">
+      <main id="top" className="flex flex-col z-0">
         <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-.1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] site-header-content relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
           <div className="flex flex-col justify-center h-full">
             <h1 className="flex flex-col font-asset w-max text-[2.75rem] text-white mx-auto">
@@ -33,7 +32,7 @@ const Home = () => {
               <br />
               I'm a full-stack web + vr developer & designer.
             </p>
-            <Link href="#posts" scroll={true}>
+            <Link to="posts" spy={true} smooth={true} duration={500}>
               <button className="font-manrope font-[300] border-solid border-[1px] px-4 py-1 border-slate-800 rounded-full text-slate-800 text-[1.2rem]">
                 View my work
               </button>
@@ -51,10 +50,15 @@ const Home = () => {
         </section>
         <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-2">
           <div>
-            <span className="text-white">Bret Petersen</span> © 2024
+            <span className="text-white">Bret Petersen</span> ©{' '}
+            {new Date().getFullYear()}
           </div>
-          <div>Email me!</div>
-          <div>Powered by Me!</div>
+          <button className="hover:text-white">
+            <a href="mailto:bretpetersen@gmail.com">Email me!</a>
+          </button>
+          <Link to="top" spy={true} smooth={true} duration={500}>
+            <button className="hover:text-white">Scroll to top ^</button>
+          </Link>
         </footer>
       </main>
     </div>
