@@ -40,7 +40,7 @@ const PortfolioPosts = [
     title: 'Budgety',
     description:
       'I acted as project lead in developing an application allowing users to create budgets and organize their funds. I created this app with a group of 3 other developers I met at a FreeCodeCamp Meetup.',
-    heroImage: 'post-budgety-00.png',
+    heroImage: 'homepage/post-budgety-00.png',
     order: 6,
     path: '/budgety',
     date: 'April, 2022',
