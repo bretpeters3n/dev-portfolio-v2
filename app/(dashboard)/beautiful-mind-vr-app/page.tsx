@@ -28,7 +28,7 @@ const beautifulMindVRApp = () => {
         h2="Research"
         paragraph="One of our group members suffered from ADHD. We were able to ask him a variety of questions to get us started with our research. We naturally moved on to doing our own research and found some very useful information in these areas:"
       />
-      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2">
+      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-4 list-gap">
         <li>
           Many users that attended the{' '}
           <a
@@ -61,7 +61,7 @@ const beautifulMindVRApp = () => {
         h2="Development"
         paragraph="After designing our storyboards for the game and gameplay we needed to work as a group in building out the scenes we designed. In order to do this we used Github so that we could all build things together while in different parts of the world. Here are some things we learned along the way:"
       />
-      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2">
+      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-4 list-gap">
         <li>
           Learned to build 3D environments in the game engine Unity and code
           with Unity in C#
@@ -75,7 +75,7 @@ const beautifulMindVRApp = () => {
         h2="Publishing"
         paragraph="Publishing happened to be a completely new experience for all of us in the group. All publishing is controlled by Meta and we needed to comply to all of their standards. Along the way we learned to:"
       />
-      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2">
+      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-4 list-gap">
         <li>
           Publish an app to the App Lab and invite others to our app to that
           they could play and review it

@@ -46,7 +46,7 @@ const PortfolioPosts = [
     date: 'April, 2022',
   },
   {
-    title: 'First Development Portfolio',
+    title: 'First Dev Portfolio',
     description:
       'This was my first development portfolio. I made this shortly after graduating from the Full-Stack Web Development program I completed in December 2020.',
     heroImage: 'homepage/post-devPortfolio1-00.jpeg',

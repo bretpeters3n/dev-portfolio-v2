@@ -24,7 +24,7 @@ const coolibar = () => {
       />
       {/* Homepage redesign */}
       <PostH2
-        h2="Homepage redesign"
+        h2="Homepage UX"
         paragraph="When I first arrived at the company the homepage didn't have much thought put into it. It was comprised of unoptimized images, a hero image with no copy, sections showing benefits of our fabrics that led no where, sections leading to poorly thought out or missing landing pages, and finally, more sections with large images and buttons that led to the same places that our main navigation already took users to."
       />
       <PostP paragraph="Everyone on the creative team wanted to change this experience, so I decided to take the lead redesigning the homepage with the creative teams input, and then finally developed the entire new homepage myself." />
@@ -54,7 +54,7 @@ const coolibar = () => {
       />
       {/* The coding! */}
       <PostH3
-        h3="The coding!"
+        h3="The development"
         paragraph="The coding for this project went pretty quickly and was mostly comprised of HTML and CSS work. The 'Best sellers' section involved JS and working within the Nosto platform. The launch went well and we luckily had no issues or fire drills following it. We did make some small edits here and there, but nothing diverting from our chosen design. Success!"
       />
       {/* Homepage fullscreen video */}
@@ -66,12 +66,12 @@ const coolibar = () => {
         src="/posts/coolibar-homepage-imgs/detail02.jpeg"
         figcaption="example of moving our Apricot Crush promotion from a section to the hero section as full screen video"
       />
-      <PostH2
-        h2="Fullscreen video and navigation overlay"
+      <PostH3
+        h3="Fullscreen video and navigation overlay"
         paragraph="As stated above, we wanted the video to be fullscreen. No matter how narrow or wide the view, we wanted the page filled with. This meant our navigation needed to not have a white background and instead have a transparent background with all of the navigation content converted to white so it would be visible on top of the video. This design portion was simple enough. It was the coding that took some trial and error."
       />
-      <PostH2
-        h2="The coding!"
+      <PostH3
+        h3="The development"
         paragraph="Our e-commerce platform was Magento 2 and our video service was Vimeo. At first my entire team thought we were going to have to tinker with the navigation within Magento 2 and we were not excited about that because our timeline was too tight to risk possibly breaking the navigation in some way."
       />
       <PostP paragraph="CSS really came to the rescue here. I was able to use only CSS to redesign/develop the entire homepage full screen video hero with our navigation overlaying it. It was nothing more than extremely well thought out CSS changes that gave us our final product. The personal success of pulling this off along with the internal compliments made my week!" />

@@ -52,6 +52,10 @@ span {
   color: #fff;
 }
 
+ul.list-gap li {
+  padding-bottom: 0.5rem;
+}
+
 .site-header-content {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   background-size: 400% 400%;

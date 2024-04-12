@@ -22,10 +22,10 @@ const magento2DevelopmentUxCoolibar2 = () => {
       />
       {/* Header redesign */}
       <PostH2
-        h2="Header redesign"
+        h2="Header"
         paragraph="My first project at Coolibar involved placing the new logo mockup into our website header. I decided to clean up the entire header to help everything fit and be legible. The redesign involved placing content in dropdown menus and making things like the search bar be visually toggled. Additional things I learned:"
       />
-      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2">
+      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2 list-gap">
         <li>Using javascript efficiently with a Magento install</li>
         <li>Integrating 3rd party Klevu modules into the new design</li>
         <li>
@@ -39,10 +39,10 @@ const magento2DevelopmentUxCoolibar2 = () => {
       />
       {/* Order confirmation page redesign */}
       <PostH2
-        h2="Order confirmation page redesign"
+        h2="Order confirmation page"
         paragraph="The order confirmation page was the default Magento one when I took this project on. The default order confirmation page is very bare and includes very little information to the customer. We wanted to add branding, a thank you message, shipment information, contact information, a list of ordered items, and a link to current blog posts. Here are some things I learned while completing this project:"
       />
-      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2">
+      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2 list-gap">
         <li>
           Working with classes and methods to organize and pull in order
           information
@@ -59,10 +59,10 @@ const magento2DevelopmentUxCoolibar2 = () => {
         figcaption="left: Before order confirmation page redesign • right: After order confirmation page redesign"
       />
       <PostH2
-        h2="Homepage hero redesign"
+        h2="Homepage hero"
         paragraph="Our homepage design had little thought put into it before I started this project. We decided to start by taking the static hero area and installing a carousel there so we could place more content at the top of the page. Additionally, we added a category section below the hero to point users to portions of our products. Here are some things I learned doing this project:"
       />
-      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2">
+      <ul className="font-serif text-lg list-disc list-outside pl-10 pb-2 list-gap">
         <li>
           Integrated a third party JS module named Splide into our codebase
         </li>

@@ -16,10 +16,10 @@ const Post = (props) => {
           alt="Picture of the author"
         />
         <div className="flex flex-col gap-1">
-          <p className="text-sm font-manrope font-extrabold text-white/20">
+          <p className="text-sm font-manrope font-black text-white/20">
             Portfolio
           </p>
-          <h2 className="font-manrope font-extrabold text-[2rem] leading-8 pt-2 pb-3">
+          <h2 className="font-manrope font-black text-[2rem] leading-tight pt-2 pb-3">
             {props.title}
           </h2>
           <p className="font-manrope text-[#979797] pb-3">

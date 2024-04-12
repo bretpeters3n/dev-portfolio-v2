@@ -3,7 +3,9 @@ import { React } from 'react'
 const PostResources = (props) => {
   return (
     <div>
-      <h2 className="font-bold text-white text-2xl pb-1 pt-6">{props.h2}</h2>
+      <h3 className="font-bold text-white text-2xl md:text-3xl pb-1 pt-6">
+        {props.h2}
+      </h3>
       {props.online ? (
         <div>
           <blockquote className="p-4 my-4 bg-gray-50 border-l-4 border-gray-300 dark:border-gray-500 dark:bg-gray-800">

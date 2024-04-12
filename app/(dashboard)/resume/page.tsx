@@ -100,7 +100,7 @@ const Resume = () => {
           Conducted user research, usability testing, and analysis to gather
           insights and inform UX design decisions.
         </p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Achieved a 21.4% increase in accessibility, reaching 89.3%, by
             implementing upgrades to web standards code, thereby enhancing user
@@ -132,7 +132,7 @@ const Resume = () => {
           business requirements, leading to the development of tailored
           solutions.
         </p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Provided strategic guidance to clients on selecting optimal
             e-commerce platforms and applications, attaining a significant
@@ -154,7 +154,7 @@ const Resume = () => {
           utilization of HTML5 & JS, while refining the design and development
           process of customer-facing emails with user-friendly templates.
         </p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Recognized with the 'employee of the month' accolade during the
             brief contract tenure.
@@ -175,7 +175,7 @@ const Resume = () => {
           translating collective ideas into vibrant animated ads for diverse
           seasonal marketing campaigns.
         </p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Elevated productivity and visual aesthetics by integrating modern
             animation software that enhanced efficiency in ad production and
@@ -202,7 +202,7 @@ const Resume = () => {
           cross-functional teams across various settings, including large
           corporations, startups, and boutique agencies.
         </p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Served as the key liaison between developers and fellow creative
             people, such as designers and creative directors, leveraging
@@ -223,7 +223,7 @@ const Resume = () => {
           github.com/bretpeters3n/affirmations-vite
         </p>
         <p className="text-white text-lg pb-2">2023</p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Designed and implemented a personal project enabling users to
             manage affirmations tailored to address specific life challenges,
@@ -243,7 +243,7 @@ const Resume = () => {
           github.com/bretpeters3n/BMind_vrUNITYApp
         </p>
         <p className="text-white text-lg pb-2">2022</p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Led the project as a C# developer, spearheading the development of
             a VR application aimed at educating ADHD users on essential life
@@ -263,7 +263,7 @@ const Resume = () => {
           Full-Stack Web Development Bootcamp
         </p>
         <p className="text-white text-lg pb-2">2021</p>
-        <ul className="font-serif font-medium text-lg not-italic">
+        <ul className="font-serif font-medium text-lg not-italic list-gap">
           <li>
             • Acted as project lead in developing an application allowing users
             to play a game of memory with cat photos.

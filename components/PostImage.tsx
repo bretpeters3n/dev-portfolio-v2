@@ -21,7 +21,7 @@ const PostImage = (props) => {
         delay: 0.25,
       }}
     >
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center pb-4">
         <figure className="flex flex-col text-center text-xs gap-3 pt-3">
           <Image
             src={props.src}
