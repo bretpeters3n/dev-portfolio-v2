@@ -11,7 +11,7 @@ export default function DashboardLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
+    <div className="flex flex-col">
       <div
         id="top"
         className="bg-[var(--navigationBackground)] h-[85px] flex flex-row"

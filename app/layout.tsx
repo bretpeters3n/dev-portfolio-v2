@@ -38,7 +38,7 @@ export default function RootLayout({
       // className={`${inter.variable} ${asset.variable} ${manrope.variable}`}
       className={`${asset.variable} ${manrope.variable}`}
     >
-      <body className="h-screen">
+      <body className="h-full">
         <div>
           <Navigation />
         </div>
