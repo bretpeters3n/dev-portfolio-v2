@@ -12,7 +12,11 @@ const PostResources = (props) => {
             </p>
           </blockquote>
           <div className="font-serif text-lg list-disc list-inside px-4">
-            <a className="text-white underline" href={props.online}>
+            <a
+              className="text-white underline"
+              href={props.online}
+              style={{ lineBreak: 'anywhere' }}
+            >
               {props.online}
             </a>
           </div>
@@ -29,7 +33,11 @@ const PostResources = (props) => {
             </p>
           </blockquote>
           <div className="font-serif text-lg list-disc list-inside px-4">
-            <a className="text-white underline" href={props.github}>
+            <a
+              className="text-white underline"
+              href={props.github}
+              style={{ lineBreak: 'anywhere' }}
+            >
               {props.github}
             </a>
           </div>
