@@ -16,7 +16,7 @@ export default function DashboardLayout({
         id="top"
         className="bg-[var(--navigationBackground)] h-[85px] flex flex-row"
       >
-        <div
+        {/* <div
           className="flex flex-col justify-center font-manrope font-bold pl-5"
           style={{ zIndex: 11 }}
         >
@@ -27,7 +27,7 @@ export default function DashboardLayout({
               <span className="italic text-lg">Full Stack Developer</span>
             </p>
           </Link>
-        </div>
+        </div> */}
         {/* <Navigation /> */}
       </div>
       <section className="flex flex-col text-white/75 font-manrope leading-relaxed mx-auto p-5 max-w-[720px] pt-9 pb-9">

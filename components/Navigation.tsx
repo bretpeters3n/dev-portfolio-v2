@@ -9,9 +9,17 @@ const Navigation = () => {
     // 👇️ toggle isActive state on click
     setIsActive((current) => !current)
   }
-  const testURL = '/'
   return (
     <nav className="theme-switcher btm-gradient text-white font-manrope text-xl">
+      <div className="flex flex-col justify-start font-manrope font-bold pl-5 pt-5 z-5">
+        <Link href="/">
+          <p className="text-white text-xl leading-4">
+            Bret Petersen
+            <br />
+            <span className="italic text-lg">Full Stack Developer</span>
+          </p>
+        </Link>
+      </div>
       <div id="appName" className="theme-switcher">
         {/* Affirmations */}
       </div>
@@ -40,13 +48,13 @@ const Navigation = () => {
           />
         </svg>
       </button>
-      <ul id="menu" className={isActive ? 'opened' : ''}>
-        <li>
+      <ul id="menu" className={isActive ? 'opened font-semibold' : ''}>
+        <li className="hover:underline">
           <Link href={'/'} onClick={handleHamClick} className="theme-switcher">
             Home
           </Link>
         </li>
-        <li>
+        <li className="hover:underline">
           <Link
             href="/#posts"
             onClick={handleHamClick}
@@ -56,6 +64,22 @@ const Navigation = () => {
           </Link>
         </li>
         <li>
+          <a
+            href="./pdf/BretPetersenResume-1l.pdf"
+            download="BretPetersenResume-1l"
+            className="theme-switcher"
+          >
+            <p className="leading-[1.25rem]">
+              <span className="hover:underline">Resume</span>
+              <br />
+              <span className="text-xs font-normal hover:none">
+                (download pdf)
+              </span>
+            </p>
+          </a>
+        </li>
+
+        {/* <li>
           <Link
             href="/resume"
             onClick={handleHamClick}
@@ -63,8 +87,8 @@ const Navigation = () => {
           >
             Resume
           </Link>
-        </li>
-        <li>
+        </li> */}
+        <li className="hover:underline">
           <Link
             href="/about"
             onClick={handleHamClick}
