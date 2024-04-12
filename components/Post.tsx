@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 const Post = (props) => {
   const { description } = props
-  console.log(description)
+  // console.log(description)
   return (
     <div className="@container">
       <div className="flex flex-col gap-6 @xl:flex-row @lg:gap-6">
