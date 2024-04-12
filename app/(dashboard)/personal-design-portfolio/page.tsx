@@ -16,6 +16,7 @@ const personalDesignPortfolio = () => {
       />
       <PostImage
         src="/posts/design-portfolio-imgs/ux-portfolio-2.png"
+        priority="true"
         figcaption="design portfolio homepage"
       />
       <PostP paragraph="This portfolio website slowly morphed into my development portfolio up until I created my actual first development portfolio. All of my animation and design work can be found in this portfolio. Check them out!" />

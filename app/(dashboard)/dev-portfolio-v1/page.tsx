@@ -16,6 +16,7 @@ const devPortfolioV1 = () => {
       />
       <PostImage
         src="/posts/dev-portfolio-v1-imgs/first-dev-portfolio-4-1.jpeg"
+        priority="true"
         figcaption="layouts from project"
       />
 

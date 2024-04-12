@@ -16,6 +16,7 @@ const budgety = () => {
       />
       <PostImage
         src="/posts/budgety-imgs/budgety-1.png"
+        priority="true"
         figcaption="budgety homescreen"
       />
 

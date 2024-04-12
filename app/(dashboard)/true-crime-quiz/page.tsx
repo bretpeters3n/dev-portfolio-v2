@@ -16,6 +16,7 @@ const trueCrimeQuiz = () => {
       />
       <PostImage
         src="/posts/true-crime-quiz-imgs/true-crime-quiz-2.png"
+        priority="true"
         figcaption="true crime quiz homescreen"
       />
 

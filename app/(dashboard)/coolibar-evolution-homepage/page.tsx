@@ -19,6 +19,7 @@ const coolibar = () => {
       <PostP paragraph="The project was an entire homepage redesign. Following that I was able to add an optional full browser hero video version with our navigation overlaying the video, making the video fit perfectly into desktop, tablet, and mobile views." />
       <PostImage
         src="/posts/coolibar-homepage-imgs/main-1.jpeg"
+        priority="true"
         figcaption="left: Original design • right: Homepage redesign • center: Homepage redesign with fullscreen video"
       />
       {/* Homepage redesign */}

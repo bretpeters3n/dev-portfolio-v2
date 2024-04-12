@@ -19,6 +19,7 @@ const affirmationsApp = () => {
       />
       <PostImage
         src="/posts/affirmations-app-imgs/main-1.png"
+        priority="true"
         figcaption="Affirmations homepage"
       />
       <PostH2

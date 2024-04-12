@@ -27,7 +27,7 @@ const PostImage = (props) => {
             src={props.src}
             width={800}
             height={500}
-            // fill
+            priority={props.priority}
             style={{ objectFit: 'contain' }}
             alt="Initial screen of Affirmations app"
           />

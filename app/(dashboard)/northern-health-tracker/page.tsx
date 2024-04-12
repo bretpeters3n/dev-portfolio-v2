@@ -16,6 +16,7 @@ const northernHealthTracker = () => {
       />
       <PostImage
         src="/posts/northern-health-tracker-imgs/northern-health-tracker-2.png"
+        priority="true"
         figcaption="northern health tracker homescreen"
       />
 

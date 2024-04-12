@@ -16,6 +16,7 @@ const catMemory = () => {
       />
       <PostImage
         src="/posts/cat-memory-imgs/cat-memory-2.gif"
+        priority="true"
         figcaption="cat memory in action!"
       />
 

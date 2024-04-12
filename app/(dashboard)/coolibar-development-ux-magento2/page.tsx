@@ -17,6 +17,7 @@ const magento2DevelopmentUxCoolibar2 = () => {
       />
       <PostImage
         src="/posts/coolibar-development-imgs/coolibar-dev-1-3.jpeg"
+        priority="true"
         figcaption="layouts of various projects that are explained in this post"
       />
       {/* Header redesign */}

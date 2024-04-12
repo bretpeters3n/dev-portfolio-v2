@@ -17,6 +17,7 @@ const beautifulMindVRApp = () => {
       />
       <PostImage
         src="/posts/beautiful-mind-imgs/beautiful-mind-1-1.jpeg"
+        priority="true"
         figcaption="game compilation screen"
       />
       <PostH2
