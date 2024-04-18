@@ -48,7 +48,7 @@ const Home = () => {
             <Posts />
           </div>
         </section>
-        <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-2">
+        <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-6">
           <div>
             <span className="text-white">Bret Petersen</span> ©{' '}
             {new Date().getFullYear()}

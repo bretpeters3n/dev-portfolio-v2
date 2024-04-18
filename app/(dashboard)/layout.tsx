@@ -34,7 +34,7 @@ export default function DashboardLayout({
         {/* <section className="flex flex-col text-white/75 font-manrope leading-relaxed"> */}
         {children}
       </section>
-      <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-2">
+      <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-6">
         <div>
           <span className="text-white">Bret Petersen</span> ©{' '}
           {new Date().getFullYear()}
