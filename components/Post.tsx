@@ -15,17 +15,18 @@ const Post = (props) => {
           height={450}
           alt="Picture of the author"
         />
-        <div className="flex flex-col gap-1">
-          <p className="text-sm font-manrope font-black text-white/20">
+        <div className="flex flex-col gap-3">
+          <p className="text-xs font-manrope font-black text-white/25">
             Portfolio
           </p>
-          <h2 className="font-manrope font-black text-[2rem] leading-tight pt-2 pb-3">
+          <h2 className="font-manrope font-extrabold text-2xl leading-tight">
             {props.title}
           </h2>
-          <p className="font-manrope text-[#979797] pb-3">
-            {description.slice(0, 150) + '...'}
+          <p className="font-manrope text-[#979797] line-clamp-3">
+            {/* {description.slice(0, 150) + '...'} */}
+            {description}
           </p>
-          <p className="font-manrope text-white/20 pb-3 font-semibold text-xs">
+          <p className="font-manrope text-white/25 font-semibold text-xs pt-1">
             {props.date}
           </p>
         </div>

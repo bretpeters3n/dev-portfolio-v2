@@ -13,7 +13,7 @@ const Posts = () => {
   const portfolioPosts = PortfolioPosts
 
   return (
-    <div className="posts w-full mt-2 mx-auto grid grid-cols-1 gap-8 md:grid-cols-2 p-3">
+    <div className="posts w-full mt-2 mx-auto grid grid-cols-1 gap-12 md:grid-cols-2 p-5">
       {portfolioPosts.map((post) => (
         <div key={post.path}>
           <motion.div
