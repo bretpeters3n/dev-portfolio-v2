@@ -7,7 +7,7 @@ const PortfolioPosts = [
     order: 10,
     path: '/affirmations-app',
     date: 'April, 2024',
-    tags: ['Web App Dev'],
+    tags: ['App Dev'],
   },
   {
     title: 'Evolution of a Homepage',
@@ -17,7 +17,7 @@ const PortfolioPosts = [
     order: 9,
     path: '/coolibar-evolution-homepage',
     date: 'March, 2024',
-    tags: ['Magento 2 Dev'],
+    tags: ['Ecomm Dev'],
   },
   {
     title: 'Beautiful Mind',
@@ -27,7 +27,7 @@ const PortfolioPosts = [
     order: 8,
     path: '/beautiful-mind-vr-app',
     date: 'Dec, 2022',
-    tags: ['VR App Dev'],
+    tags: ['VR Dev'],
   },
   {
     title: 'Initial Coolibar projects',
@@ -37,7 +37,7 @@ const PortfolioPosts = [
     order: 7,
     path: '/coolibar-development-ux-magento2',
     date: 'Oct, 2022',
-    tags: ['Magento 2 Dev', 'UX'],
+    tags: ['Ecomm Dev', 'UX'],
   },
   {
     title: 'Budgety',
@@ -47,7 +47,7 @@ const PortfolioPosts = [
     order: 6,
     path: '/budgety',
     date: 'April, 2022',
-    tags: ['Web App Dev'],
+    tags: ['App Dev'],
   },
   {
     title: 'First Dev Portfolio',
@@ -102,3 +102,5 @@ const PortfolioPosts = [
 ]
 
 export default PortfolioPosts
+
+// Add ‘Portfolio’ pill to DB file; make desciption-like w/ App Dev, Web Dev, Ecomm Dev, VR Dev, UX

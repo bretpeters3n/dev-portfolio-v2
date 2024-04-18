@@ -5,6 +5,7 @@ import Posts from '../components/Posts'
 // import Footer from '../components/Footer'
 import { Link } from 'react-scroll'
 import Footer from '@/components/Footer'
+import SocialIcons from '@/components/SocialIcons'
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false)
@@ -38,6 +39,9 @@ const Home = () => {
                 View my work
               </button>
             </Link>
+            <div className="flex flex-row justify-center pt-12">
+              <SocialIcons />
+            </div>
           </div>
         </header>
         <section

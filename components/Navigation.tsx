@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import SocialIcons from './SocialIcons'
 
 const Navigation = () => {
   const [isActive, setIsActive] = useState(false)
@@ -54,13 +55,20 @@ const Navigation = () => {
           />
         </svg>
       </button>
-      <ul id="menu" className={isActive ? 'opened font-semibold' : ''}>
-        <li className="hover:underline">
+      <ul
+        id="menu"
+        className={
+          isActive
+            ? 'opened font-semibold flex flex-col items-center m-auto'
+            : ''
+        }
+      >
+        <li className="w-max hover:font-extrabold">
           <Link href={'/'} onClick={handleHamClick} className="theme-switcher">
             Home
           </Link>
         </li>
-        <li className="hover:underline">
+        <li className="w-max hover:font-extrabold">
           <Link
             href="/#posts"
             onClick={handleHamClick}
@@ -69,20 +77,18 @@ const Navigation = () => {
             Work
           </Link>
         </li>
-        <li>
-          <a
+        <li className="w-max">
+          <Link
             href="./pdf/BretPetersenResume-1l.pdf"
             download="BretPetersenResume-1l"
             className="theme-switcher"
           >
-            <p className="leading-[1.25rem]">
-              <span className="hover:underline">Resume</span>
+            <p className="hover:font-extrabold leading-[1.25rem]">
+              <span className="">Resume</span>
               <br />
-              <span className="text-xs font-normal hover:none">
-                (download pdf)
-              </span>
+              <span className="text-xs font-normal">(download pdf)</span>
             </p>
-          </a>
+          </Link>
         </li>
 
         {/* <li>
@@ -94,7 +100,7 @@ const Navigation = () => {
             Resume
           </Link>
         </li> */}
-        <li className="hover:underline">
+        <li className="w-max hover:font-extrabold">
           <Link
             href="/about"
             onClick={handleHamClick}
@@ -102,6 +108,9 @@ const Navigation = () => {
           >
             About
           </Link>
+        </li>
+        <li className="w-max">
+          <SocialIcons />
         </li>
       </ul>
     </nav>
