@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Posts from '../components/Posts'
 // import Footer from '../components/Footer'
 import { Link } from 'react-scroll'
+import Footer from '@/components/Footer'
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false)
@@ -48,18 +49,7 @@ const Home = () => {
             <Posts />
           </div>
         </section>
-        <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 text-xs pt-4 pb-4 px-6 gap-6">
-          <div>
-            <span className="text-white">Bret Petersen</span> ©{' '}
-            {new Date().getFullYear()}
-          </div>
-          <button className="hover:text-white">
-            <a href="mailto:bretpetersen@gmail.com">Email me!</a>
-          </button>
-          <Link to="top" spy={true} smooth={true} duration={500}>
-            <button className="hover:text-white">Scroll to top ^</button>
-          </Link>
-        </footer>
+        <Footer />
       </main>
     </div>
   )
