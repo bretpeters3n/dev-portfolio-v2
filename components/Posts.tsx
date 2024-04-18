@@ -33,6 +33,7 @@ const Posts = () => {
                 description={post.description}
                 heroImage={post.heroImage}
                 date={post.date}
+                tags={post.tags}
               />
             </Link>
           </motion.div>

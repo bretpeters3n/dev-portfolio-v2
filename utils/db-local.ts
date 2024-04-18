@@ -7,34 +7,37 @@ const PortfolioPosts = [
     order: 10,
     path: '/affirmations-app',
     date: 'April, 2024',
+    tags: ['Web App Dev'],
   },
   {
-    title: 'Evolution of a Homepage @ Coolibar (Magento 2)',
+    title: 'Evolution of a Homepage',
     description:
       'My first development position has come to an end. The company owner decided to move Coolibar to Florida, leaving most of us behind in Minnesota unemployed. Luckily I was able to complete one last project that I even impressed myself with!',
     heroImage: 'homepage/post-coolibar1-00.jpeg',
     order: 9,
-
     path: '/coolibar-evolution-homepage',
     date: 'March, 2024',
+    tags: ['Magento 2 Dev'],
   },
   {
-    title: 'Beautiful Mind (VR App)',
+    title: 'Beautiful Mind',
     description:
       'After graduating from development bootcamp I found myself in Eventbright and Meetup developer circles. One of those circles was learning VR development. I decided to dive in head first! In the process learned how to make mobile games, AltSpace worlds (then VRChat worlds after AltSpace shut down), VR development, and VR publishing. In the end I made a VR app with a small group of developers.',
     heroImage: 'homepage/post-beautifulMind-00.jpeg',
     order: 8,
     path: '/beautiful-mind-vr-app',
     date: 'Dec, 2022',
+    tags: ['VR App Dev'],
   },
   {
-    title: 'Development & UX @ Coolibar (Magento 2)',
+    title: 'Initial Coolibar projects',
     description:
       'My first development position exposed me to a variety of coding challenges and also allowed me to use my UX skills. Here are some projects I completed on the Coolibar Magento e-commerce site.',
     heroImage: 'homepage/post-coolibar2-00.jpeg',
     order: 7,
     path: '/coolibar-development-ux-magento2',
     date: 'Oct, 2022',
+    tags: ['Magento 2 Dev', 'UX'],
   },
   {
     title: 'Budgety',
@@ -44,6 +47,7 @@ const PortfolioPosts = [
     order: 6,
     path: '/budgety',
     date: 'April, 2022',
+    tags: ['Web App Dev'],
   },
   {
     title: 'First Dev Portfolio',
@@ -53,6 +57,7 @@ const PortfolioPosts = [
     order: 5,
     path: '/dev-portfolio-v1',
     date: 'Jan, 2022',
+    tags: ['Web Dev'],
   },
   {
     title: 'True Crime Quiz',
@@ -62,6 +67,7 @@ const PortfolioPosts = [
     order: 4,
     path: '/true-crime-quiz',
     date: 'Nov, 2021',
+    tags: ['Web Dev'],
   },
   {
     title: 'Northern Health Tracker',
@@ -71,15 +77,17 @@ const PortfolioPosts = [
     order: 3,
     path: '/northern-health-tracker',
     date: 'Oct, 2021',
+    tags: ['Web Dev'],
   },
   {
     title: 'Cat Memory',
     description:
-      'A responsive application that allows users to play a game of memory with cat photos...',
+      'A responsive application that allows users to play a game of memory with cat photos.',
     heroImage: 'homepage/post-catMemory-00.png',
     order: 2,
     path: '/cat-memory',
     date: 'Sept, 2021',
+    tags: ['Web Dev'],
   },
   {
     title: 'Personal Design Portfolio',
@@ -89,6 +97,7 @@ const PortfolioPosts = [
     order: 1,
     path: 'personal-design-portfolio',
     date: 'July, 2021',
+    tags: ['Web Dev'],
   },
 ]
 
