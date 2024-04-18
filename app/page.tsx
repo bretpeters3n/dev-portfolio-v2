@@ -16,8 +16,8 @@ const Home = () => {
     <div>
       {/* <Navigation /> */}
       <main id="top" className="flex flex-col z-0">
-        <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-.1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] site-header-content relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
-          <div className="flex flex-col justify-center h-full">
+        <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] site-header-content relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
+          <div className="flex flex-col justify-center h-full px-4">
             <h1 className="flex flex-col font-asset w-max text-[2.75rem] md:text-[3.75rem] text-white mx-auto md:pb-2">
               hello!
               <div className="divide-y divide-solid">
