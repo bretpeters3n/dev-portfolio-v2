@@ -11,26 +11,8 @@ const Navigation = () => {
     setIsActive((current) => !current)
   }
 
-  // print current page URL
-  // const ddd = window.location.pathname
-  // console.log('window:')
-  // console.log(ddd)
-
   return (
     <nav className="theme-switcher btm-gradient text-white font-manrope text-xl">
-      {!isActive ? (
-        <div className="flex flex-col justify-start font-manrope font-bold pl-5 pt-5 z-5">
-          <Link href="/">
-            <p className="text-white text-xl leading-4">
-              Bret Petersen
-              <br />
-              <span className="italic text-lg">Full Stack Developer</span>
-            </p>
-          </Link>
-        </div>
-      ) : (
-        ''
-      )}
       <div id="appName" className="theme-switcher">
         {/* Affirmations */}
       </div>
