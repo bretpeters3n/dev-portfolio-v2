@@ -26,7 +26,7 @@ const Navigation = () => {
         <svg
           width="40"
           height="40"
-          className="fixed top-5 right-5"
+          className="fixed top-5 right-5 drop-shadow-[0_0_10px_rgba(0,0,0,.5)]"
           viewBox="0 0 100 100"
         >
           {/* NEW */}
