@@ -8,7 +8,7 @@ import SocialIcons from '@/components/SocialIcons'
 
 const About = () => {
   return (
-    <div>
+    <div className="">
       <PostH1
         h1="About this site"
         paragraph="This is the personal development portfolio for me, Bret Petersen. Feel free to take a look at my projects and reach out to me if you 'd like to work with me. Thank you for visiting!"

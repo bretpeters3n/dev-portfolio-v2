@@ -4,7 +4,7 @@ import { useState } from 'react'
 // import Navigation from '@/components/Navigation'
 import Link from 'next/link'
 import { Link as LinkScroll } from 'react-scroll'
-import Footer from '@/components/Footer'
+// import Footer from '@/components/Footer'
 
 export default function DashboardLayout({
   children,
@@ -12,7 +12,7 @@ export default function DashboardLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="flex flex-col">
+    <div className="">
       <div
         id="top"
         className="bg-[var(--navigationBackground)] h-[85px] flex flex-row"
@@ -28,11 +28,11 @@ export default function DashboardLayout({
         </div>
         {/* <Navigation /> */}
       </div>
-      <section className="flex flex-col text-white/75 font-manrope leading-relaxed mx-auto p-5 max-w-[720px] pt-9 pb-9">
+      <section className="text-white/75 font-manrope leading-relaxed mx-auto p-5 max-w-[720px] pt-9 pb-9">
         {/* <section className="flex flex-col text-white/75 font-manrope leading-relaxed"> */}
         {children}
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }

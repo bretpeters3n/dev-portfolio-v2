@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 // import { Inter, Asset, Manrope } from 'next/font/google'
 import { Asset, Manrope } from 'next/font/google'
 import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 import '../css/Nav.css'
 import './globals.css'
 
@@ -38,11 +39,12 @@ export default function RootLayout({
       // className={`${inter.variable} ${asset.variable} ${manrope.variable}`}
       className={`${asset.variable} ${manrope.variable}`}
     >
-      <body className="h-full">
-        <div>
+      <body className="">
+        <div className="flex flex-col h-screen">
           <Navigation />
+          <div>{children}</div>
+          <Footer />
         </div>
-        <div> {children}</div>
       </body>
     </html>
   )

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import Posts from '../components/Posts'
 // import Footer from '../components/Footer'
 import { Link } from 'react-scroll'
-import Footer from '@/components/Footer'
+// import Footer from '@/components/Footer'
 // import SocialIcons from '@/components/SocialIcons'
 
 const Home = () => {
@@ -53,7 +53,7 @@ const Home = () => {
             <Posts />
           </div>
         </section>
-        <Footer />
+        {/* <Footer /> */}
       </main>
     </div>
   )

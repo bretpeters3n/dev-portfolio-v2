@@ -1,3 +1,5 @@
+'use client'
+
 import { Link as LinkScroll } from 'react-scroll'
 import Link from 'next/link'
 
