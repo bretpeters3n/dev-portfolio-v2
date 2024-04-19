@@ -8,6 +8,7 @@ const SocialIcons = () => {
           bgColor="white"
           fgColor="transparent"
           url="https://github.com/bretpeters3n"
+          target="_blank"
         />
       </div>
       <div className="opacity-75 hover:opacity-100">
@@ -15,6 +16,7 @@ const SocialIcons = () => {
           bgColor="white"
           fgColor="transparent"
           url="https://linkedin.com/in/bret-petersen/"
+          target="_blank"
         />
       </div>
       <div className="opacity-75 hover:opacity-100">
@@ -22,6 +24,7 @@ const SocialIcons = () => {
           bgColor="white"
           fgColor="transparent"
           url="mailto:bretpetersen@gmail.com"
+          target="_blank"
         />
       </div>
     </div>
