@@ -14,7 +14,7 @@ const coolibar = () => {
       {/* Evolution of a Homepage @ Coolibar (Magento 2) */}
       <PostH1
         h1="Evolution of a Homepage @ Coolibar (Magento 2)"
-        paragraph="My first development position has come to an end. The company owner decided to move Coolibar to Florida, leaving most of us behind in Minnesota unemployed. Luckily I was able to complete one last project that I even impressed myself with!"
+        paragraph="As my first development position came closer to ending I was luckily able to complete one last project that I even impressed myself with!"
       />
       <PostP paragraph="The project was an entire homepage redesign. Following that I was able to add an optional full browser hero video version with our navigation overlaying the video, making the video fit perfectly into desktop, tablet, and mobile views." />
       <PostImage

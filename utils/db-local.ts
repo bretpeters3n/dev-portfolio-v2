@@ -12,7 +12,7 @@ const PortfolioPosts = [
   {
     title: 'Evolution of a Homepage',
     description:
-      'My first development position has come to an end. The company owner decided to move Coolibar to Florida, leaving most of us behind in Minnesota unemployed. Luckily I was able to complete one last project that I even impressed myself with!',
+      'As my first development position came closer to ending I was luckily able to complete one last project that I even impressed myself with!',
     heroImage: 'homepage/post-coolibar1-00.jpeg',
     order: 9,
     path: '/coolibar-evolution-homepage',
