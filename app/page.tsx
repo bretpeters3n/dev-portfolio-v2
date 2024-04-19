@@ -5,7 +5,7 @@ import Posts from '../components/Posts'
 // import Footer from '../components/Footer'
 import { Link } from 'react-scroll'
 import Footer from '@/components/Footer'
-import SocialIcons from '@/components/SocialIcons'
+// import SocialIcons from '@/components/SocialIcons'
 
 const Home = () => {
   const [isActive, setIsActive] = useState(false)
@@ -40,7 +40,7 @@ const Home = () => {
               </button>
             </Link>
             <div className="flex flex-row justify-center pt-12">
-              <SocialIcons />
+              {/* <SocialIcons /> */}
             </div>
           </div>
         </header>
