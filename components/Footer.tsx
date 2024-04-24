@@ -28,7 +28,7 @@ const Footer = () => {
         duration={500}
         className="hover:text-white text-xs"
       >
-        Scroll to top ^
+        <button>Scroll to top ^</button>
       </LinkScroll>
     </footer>
   )
