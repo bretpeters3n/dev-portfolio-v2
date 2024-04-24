@@ -39,12 +39,13 @@ export default function RootLayout({
       // className={`${inter.variable} ${asset.variable} ${manrope.variable}`}
       className={`${asset.variable} ${manrope.variable}`}
     >
-      <body className="">
-        <div className="flex flex-col h-screen">
-          <Navigation />
-          <div>{children}</div>
-          <Footer />
-        </div>
+      {/* <body className=""> */}
+      <body className="flex flex-col h-screen">
+        {/* <div className="flex flex-col h-screen"> */}
+        <Navigation />
+        <div>{children}</div>
+        <Footer />
+        {/* </div> */}
       </body>
     </html>
   )

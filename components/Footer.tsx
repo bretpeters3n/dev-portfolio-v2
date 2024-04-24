@@ -5,7 +5,8 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 pt-4 pb-4 px-6 gap-6">
+    // <footer className="mt-auto">Footer</footer>
+    <footer className="mt-auto flex flex-col sm:flex-row justify-between items-center bg-[#0a0b0c] text-white/60 pt-4 pb-4 px-6 gap-6">
       <div className="text-white text-sm">
         <span className="font-bold">
           <Link href={'/about'}>Bret Petersen</Link>
