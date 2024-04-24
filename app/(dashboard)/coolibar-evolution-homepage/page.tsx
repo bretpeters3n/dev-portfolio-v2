@@ -50,7 +50,7 @@ const coolibar = () => {
       {/* Final design */}
       <PostH3
         h3="Final design"
-        paragraph="I asked everyone involved to find competitor examples that they believed worked really well. In our next meeting everyone presented their examples and explained what they thought worked well and why. After we all presented we then voted on all of the examples."
+        paragraph="The next meeting was focused on presenting the homepage examples we created and voting as a group on our favorites. This worked out extremely well. Because we all put so much thought in to the beginning of the project, we all felt our needs were being met by the examples we were able to spin up independently. Ultimately we decided and I was able to begin coding!"
       />
       {/* The coding! */}
       <PostH3
