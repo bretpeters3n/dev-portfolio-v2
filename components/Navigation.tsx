@@ -12,13 +12,16 @@ const Navigation = () => {
   }
 
   return (
-    <nav className="theme-switcher btm-gradient text-white font-manrope text-xl">
+    <nav
+      className="theme-switcher btm-gradient text-white font-manrope text-xl"
+      style={{ zIndex: '20', pointerEvents: 'none' }}
+    >
       <div id="appName" className="theme-switcher">
         {/* Affirmations */}
       </div>
       <button
         id="hamburger"
-        style={{ zIndex: '10' }}
+        style={{ zIndex: '30', pointerEvents: 'auto' }}
         className={isActive ? 'opened' : ''}
         onClick={handleHamClick}
         aria-label="Main Menu"
@@ -43,6 +46,7 @@ const Navigation = () => {
       </button>
       <ul
         id="menu"
+        style={{ zIndex: '20', pointerEvents: 'auto' }}
         className={
           isActive
             ? 'opened font-semibold flex flex-col items-center m-auto'

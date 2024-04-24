@@ -42,8 +42,8 @@ export default function RootLayout({
       {/* <body className=""> */}
       <body className="flex flex-col h-screen">
         {/* <div className="flex flex-col h-screen"> */}
+        <div className="z-10">{children}</div>
         <Navigation />
-        <div>{children}</div>
         <Footer />
         {/* </div> */}
       </body>
