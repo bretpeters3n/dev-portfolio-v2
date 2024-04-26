@@ -15,7 +15,7 @@ const Post = (props) => {
           height={450}
           alt="Picture of the project"
         />
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 justify-center">
           <p className="text-xs font-manrope font-black text-white/25">
             {tags.map((item, index) => (
               <span key={index} className="text-inherit font-inherit">
