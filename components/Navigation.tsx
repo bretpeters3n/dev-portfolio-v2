@@ -13,16 +13,21 @@ const Navigation = () => {
 
   return (
     <nav
-      className="theme-switcher btm-gradient text-white font-manrope text-xl"
-      style={{ zIndex: '20', pointerEvents: 'none' }}
+      className="theme-switcher btm-gradient text-white font-manrope text-xl z-20 pointer-events-none"
+      // style={{ zIndex: '20', pointerEvents: 'none' }}
     >
       <div id="appName" className="theme-switcher">
         {/* Affirmations */}
       </div>
       <button
+        type="button"
         id="hamburger"
-        style={{ zIndex: '30', pointerEvents: 'auto' }}
-        className={isActive ? 'opened' : ''}
+        // style={{ zIndex: '30', pointerEvents: 'auto' }}
+        className={
+          isActive
+            ? 'opened z-30 pointer-events-auto'
+            : 'z-30 pointer-events-auto'
+        }
         onClick={handleHamClick}
         aria-label="Main Menu"
       >
@@ -46,11 +51,11 @@ const Navigation = () => {
       </button>
       <ul
         id="menu"
-        style={{ zIndex: '20', pointerEvents: 'auto' }}
+        // style={{ zIndex: '20', pointerEvents: 'auto' }}
         className={
           isActive
-            ? 'opened font-semibold flex flex-col items-center m-auto'
-            : ''
+            ? 'opened font-semibold flex flex-col items-center m-auto z-20 pointer-events-auto'
+            : 'font-semibold flex flex-col items-center m-auto z-20 pointer-events-auto'
         }
       >
         <li className="w-max hover:font-extrabold">
@@ -68,9 +73,9 @@ const Navigation = () => {
           </Link>
         </li>
         <li className="w-max">
-          <Link
-            href="./pdf/BretPetersenResume-1l.pdf"
-            download="BretPetersenResume-1l"
+          <a
+            href="./pdf/BretPetersenResume.pdf"
+            download="BretPetersenResume"
             className="theme-switcher"
           >
             <p className="hover:font-extrabold leading-[1.25rem]">
@@ -78,16 +83,19 @@ const Navigation = () => {
               <br />
               <span className="text-xs font-normal">(download pdf)</span>
             </p>
-          </Link>
+          </a>
         </li>
-
-        {/* <li>
+        {/* <li className="w-max">
           <Link
-            href="/resume"
-            onClick={handleHamClick}
+            href="./pdf/BretPetersenResume.pdf"
+            download="BretPetersenResume"
             className="theme-switcher"
           >
-            Resume
+            <p className="hover:font-extrabold leading-[1.25rem]">
+              <span className="">Resume</span>
+              <br />
+              <span className="text-xs font-normal">(download pdf)</span>
+            </p>
           </Link>
         </li> */}
         <li className="w-max hover:font-extrabold">

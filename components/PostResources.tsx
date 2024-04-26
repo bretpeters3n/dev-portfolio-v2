@@ -15,9 +15,9 @@ const PostResources = (props) => {
           </blockquote>
           <div className="font-serif text-lg list-disc list-inside px-4">
             <a
-              className="text-white underline"
+              className="text-white underline break-all"
               href={props.online}
-              style={{ lineBreak: 'anywhere' }}
+              // style={{ lineBreak: 'anywhere' }}
             >
               {props.online}
             </a>
@@ -36,9 +36,9 @@ const PostResources = (props) => {
           </blockquote>
           <div className="font-serif text-lg list-disc list-inside px-4">
             <a
-              className="text-white underline"
+              className="text-white underline break-all"
               href={props.github}
-              style={{ lineBreak: 'anywhere' }}
+              // style={{ lineBreak: 'anywhere' }}
             >
               {props.github}
             </a>
