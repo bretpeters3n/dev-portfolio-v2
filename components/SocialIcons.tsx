@@ -25,7 +25,7 @@ const SocialIcons = () => {
         <SocialIcon
           bgColor="white"
           fgColor="transparent"
-          url="https://medium.com"
+          url="https://medium.com/@bretpetersen"
           target="_blank"
           title="Medium: Bret Petersen (blog posts)"
         />
