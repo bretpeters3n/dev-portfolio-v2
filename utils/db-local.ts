@@ -17,7 +17,7 @@ const PortfolioPosts = [
     order: 9,
     path: '/coolibar-evolution-homepage',
     date: 'March, 2024',
-    tags: ['Ecomm Dev'],
+    tags: ['Ecomm Dev', 'UX'],
   },
   {
     title: 'Beautiful Mind',

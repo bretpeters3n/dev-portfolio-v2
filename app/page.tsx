@@ -33,7 +33,7 @@ const Home = () => {
               <span className="font-[500] text-slate-800">Bret Petersen.</span>
               <br />
               {/* I'm a full-stack web + vr developer & designer. */}
-              I'm a full-stack web developer.
+              I'm a full-stack web developer & UX designer.
             </p>
             <Link to="posts" spy={true} smooth={true} duration={500}>
               <button className="font-manrope font-[300] border-solid hover:border-slate-800/0 hover:bg-white border-[1px] px-6 py-2 md:px-8 border-slate-800 rounded-full text-slate-800 text-[1.2rem] md:text-[1.3rem]">
