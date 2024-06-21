@@ -7,6 +7,7 @@ import { Link } from 'react-scroll'
 // import Footer from '@/components/Footer'
 // import SocialIcons from '@/components/SocialIcons'
 import { motion } from 'framer-motion'
+import Tilt from 'react-parallax-tilt'
 
 const Home = () => {
   // const [isActive, setIsActive] = useState(false)
@@ -16,10 +17,16 @@ const Home = () => {
   // }
   // const testURL = '/affirmations-app'
   const text = `I'm a full-stack web developer & UX designer.`.split(' ')
+
+  {
+    /* TODO: Create your own favicon -> maybe '<>' */
+  }
+
   return (
     <div>
       {/* <Navigation /> */}
       <main id="top" className="flex flex-col z-0">
+        {/* <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}> */}
         <header className="h-[calc(100vh-.5rem)] sm:h-[calc(100vh-1rem)] md:h-[calc(100vh-1.5rem)] lg:h-[calc(100vh-2rem)] site-header-content relative text-center rounded-[2rem] m-1 sm:m-2 md:m-3 lg:m-4 content-center">
           <div className="flex flex-col justify-center h-full px-4">
             <h1 className="flex flex-col font-asset w-max text-[2.75rem] md:text-[3.75rem] text-white mx-auto md:pb-2">
@@ -34,7 +41,6 @@ const Home = () => {
               I’m{' '}
               <span className="font-[500] text-slate-800">Bret Petersen.</span>
               <br />
-              {/* TODO: Animate this text onto the page */}
               {/* I'm a full-stack web + vr developer & designer. */}
               {/* I'm a full-stack web developer & UX designer. */}
               {text.map((item, i) => (
@@ -70,6 +76,7 @@ const Home = () => {
             </div>
           </div>
         </header>
+        {/* </Tilt> */}
         <section
           // style={{ width: '100vw' }}
           id="posts"

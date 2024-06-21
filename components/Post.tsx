@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Tilt from 'react-parallax-tilt'
 
 const Post = (props) => {
   const { title, description, heroImage, date, tags } = props
@@ -6,15 +7,17 @@ const Post = (props) => {
   return (
     <div className="@container">
       <div className="flex flex-col gap-6 @xl:flex-row @lg:gap-6">
-        <Image
-          className="flex flex-col justify-center items-center object-cover w-full aspect-video rounded-xl"
-          // sizes="100%"
-          // fill={true}
-          src={`/posts/` + heroImage}
-          width={450}
-          height={450}
-          alt="Picture of the project"
-        />
+        <Tilt tiltMaxAngleX={15} tiltMaxAngleY={15}>
+          <Image
+            className="flex flex-col justify-center items-center object-cover w-full aspect-video rounded-xl"
+            // sizes="100%"
+            // fill={true}
+            src={`/posts/` + heroImage}
+            width={450}
+            height={450}
+            alt="Picture of the project"
+          />
+        </Tilt>
         <div className="flex flex-col gap-3 justify-center">
           <p className="text-xs font-manrope font-black text-white/25">
             {tags.map((item, index) => (
