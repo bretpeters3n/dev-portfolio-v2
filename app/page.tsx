@@ -9,12 +9,13 @@ import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
 
 const Home = () => {
-  const [isActive, setIsActive] = useState(false)
-  const handleHamClick = () => {
-    // 👇️ toggle isActive state on click
-    setIsActive((current) => !current)
-  }
-  const testURL = '/affirmations-app'
+  // const [isActive, setIsActive] = useState(false)
+  // const handleHamClick = () => {
+  //   // 👇️ toggle isActive state on click
+  //   setIsActive((current) => !current)
+  // }
+  // const testURL = '/affirmations-app'
+  const text = `I'm a full-stack web developer & UX designer.`.split(' ')
   return (
     <div>
       {/* <Navigation /> */}
@@ -29,14 +30,25 @@ const Home = () => {
               </div>
             </h1>
 
-            <p className="font-manrope font-[200] text-[1.75rem] md:text-[2.25rem] text-slate-800 leading-[2rem] md:leading-[2.5rem] pt-3 pb-5 md:pb-6">
+            <div className="font-manrope font-[200] text-[1.75rem] md:text-[2.25rem] text-slate-800 leading-[2rem] md:leading-[2.5rem] pt-3 pb-5 md:pb-6">
               I’m{' '}
               <span className="font-[500] text-slate-800">Bret Petersen.</span>
               <br />
               {/* TODO: Animate this text onto the page */}
               {/* I'm a full-stack web + vr developer & designer. */}
-              I'm a full-stack web developer & UX designer.
-            </p>
+              {/* I'm a full-stack web developer & UX designer. */}
+              {text.map((item, i) => (
+                <motion.span
+                  key={i}
+                  className="font-manrope font-[200] text-slate-800"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ duration: 0.25, delay: i / 10 }}
+                >
+                  {item}{' '}
+                </motion.span>
+              ))}
+            </div>
             <Link
               to="posts"
               spy={true}
@@ -46,10 +58,11 @@ const Home = () => {
             >
               {/* TODO: Animate in a fade of the white color of the button on rollover */}
               {/* TODO: Add button tap animation */}
-              <motion.button whileTap={{ scale: 0.85 }}>
-                <button className="font-manrope font-[300] border-solid transition hover:border-slate-800/0 hover:bg-white border-[1px] px-6 py-2 md:px-8 border-slate-800 rounded-full text-slate-800 text-[1.2rem] md:text-[1.3rem]">
-                  View my work
-                </button>
+              <motion.button
+                whileTap={{ scale: 0.85 }}
+                className="font-manrope font-[300] border-solid transition hover:border-slate-800/0 hover:bg-white border-[1px] px-6 py-2 md:px-8 border-slate-800 rounded-full text-slate-800 text-[1.2rem] md:text-[1.3rem]"
+              >
+                View my work
               </motion.button>
             </Link>
             <div className="flex flex-row justify-center pt-12">
