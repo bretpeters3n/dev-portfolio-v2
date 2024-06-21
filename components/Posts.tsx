@@ -15,6 +15,8 @@ const Posts = () => {
   return (
     <div className="posts w-full mt-2 mx-auto grid grid-cols-1 gap-12 md:grid-cols-2 p-5">
       {portfolioPosts.map((post) => (
+        // TODO: Add tilt interactivity here
+        // TODO: Toggle initial value of x to be 100, -100, 100, -100, etc.
         <div key={post.path}>
           <motion.div
             initial={{ x: -100, opacity: 0 }}
