@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 // import Footer from '@/components/Footer'
 // import SocialIcons from '@/components/SocialIcons'
 import { motion } from 'framer-motion'
-import Tilt from 'react-parallax-tilt'
+// import Tilt from 'react-parallax-tilt'
 
 const Home = () => {
   // const [isActive, setIsActive] = useState(false)
@@ -42,8 +42,14 @@ const Home = () => {
               <span className="font-[500] text-slate-800">Bret Petersen.</span>
               <br />
               {/* I'm a full-stack web + vr developer & designer. */}
-              {/* I'm a full-stack web developer & UX designer. */}
-              {text.map((item, i) => (
+              {/* <motion.span
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.25 }}
+              > */}
+              I'm a full-stack web developer & UX designer.
+              {/* </motion.span> */}
+              {/* {text.map((item, i) => (
                 <motion.span
                   key={i}
                   className="font-manrope font-[200] text-slate-800"
@@ -53,7 +59,7 @@ const Home = () => {
                 >
                   {item}{' '}
                 </motion.span>
-              ))}
+              ))} */}
             </div>
             <Link
               to="posts"
