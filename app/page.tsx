@@ -68,8 +68,6 @@ const Home = () => {
               duration={500}
               delay={100}
             >
-              {/* TODO: Animate in a fade of the white color of the button on rollover */}
-              {/* TODO: Add button tap animation */}
               <motion.button
                 whileTap={{ scale: 0.85 }}
                 className="font-manrope font-[300] border-solid transition hover:border-slate-800/0 hover:bg-white border-[1px] px-6 py-2 md:px-8 border-slate-800 rounded-full text-slate-800 text-[1.2rem] md:text-[1.3rem]"
