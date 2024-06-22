@@ -14,10 +14,13 @@ const Posts = () => {
 
   return (
     <div className="posts w-full mt-2 mx-auto grid grid-cols-1 gap-12 md:grid-cols-2 p-5">
-      {portfolioPosts.map((post) => (
+      {portfolioPosts.map((item, i) => (
         // TODO: Add tilt interactivity here
         // TODO: Toggle initial value of x to be 100, -100, 100, -100, etc.
-        <div key={post.path}>
+        <div
+          key={i}
+          className={i === 0 ? 'classOfFirstEl' : 'classOfRemainingEl'}
+        >
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -29,13 +32,13 @@ const Posts = () => {
               delay: 0.25,
             }}
           >
-            <Link href={post.path}>
+            <Link href={item.path}>
               <Post
-                title={post.title}
-                description={post.description}
-                heroImage={post.heroImage}
-                date={post.date}
-                tags={post.tags}
+                title={item.title}
+                description={item.description}
+                heroImage={item.heroImage}
+                date={item.date}
+                tags={item.tags}
               />
             </Link>
           </motion.div>

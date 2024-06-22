@@ -76,12 +76,21 @@ ul.list-gap li {
   }
 }
 
-.posts :first-child {
+/* .grid div:first-child {
   grid-column: 1 / -1;
-  box-sizing: border-box;
-  /* display: block; */
-  /* width: 66%; */
+} */
+
+.classOfFirstEl {
+  grid-column: 1 / -1;
 }
+/* .classOfFirstEl {
+} */
+/* .classOfFirstEl img {
+  width: 200%;
+} */
+/* .classOfRemainingEl {
+
+} */
 
 .truncate-overflow {
   --lh: 1.25;
