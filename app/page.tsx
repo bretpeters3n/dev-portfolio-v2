@@ -16,7 +16,7 @@ const Home = () => {
   //   setIsActive((current) => !current)
   // }
   // const testURL = '/affirmations-app'
-  const text = `I'm a full-stack web developer & UX designer.`.split(' ')
+  const text = `I'm a front-end web developer & UX designer.`.split(' ')
 
   {
     /* TODO: Create your own favicon -> maybe '<>' */
@@ -47,7 +47,7 @@ const Home = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.25 }}
               > */}
-              I'm a full-stack web developer & UX designer.
+              I'm a front-end web developer & UX designer.
               {/* </motion.span> */}
               {/* {text.map((item, i) => (
                 <motion.span
